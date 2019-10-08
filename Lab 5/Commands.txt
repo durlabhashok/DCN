@@ -1,0 +1,47 @@
+Port Secruity Lab (10/08/19)
+
+
+Switch#config t
+Switch(config)#int range fa0/1-4
+Switch(config-if-range)#switchport mode access
+
+Switch(config-if-range)#switchport port-security maximum 1
+Switch(config-if-range)#switchport port-security mac-address sticky
+Switch(config-if-range)#switchport port-security violation restrict
+
+Switch(config-if-range)#end
+
+
+
+(For PROTECT)
+
+Switch(config)#int range fa0/5-8
+Switch(config-if-range)#switch-port mode access
+Switch(config-if-range)#switchport mode access
+
+Switch(config-if-range)#switchport port-security maximum 1
+Switch(config-if-range)#switchport port-security mac-address sticky
+Switch(config-if-range)#switchport port-security violation protect
+
+Switch(config-if-range)#end
+
+
+show port-security
+
+
+
+
+(For Shutdown)
+
+Switch(config)#int range fa0/5-8
+Switch(config-if-range)#switch-port mode access
+Switch(config-if-range)#switchport mode access
+
+Switch(config-if-range)#switchport port-security maximum 1
+Switch(config-if-range)#switchport port-security mac-address sticky
+Switch(config-if-range)#switchport port-security violation shutdown
+
+Switch(config-if-range)#end
+
+
+show port-security

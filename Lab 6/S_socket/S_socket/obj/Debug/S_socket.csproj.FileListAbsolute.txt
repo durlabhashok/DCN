@@ -1,0 +1,6 @@
+C:\Users\glab\Desktop\S_socket\S_socket\bin\Debug\S_socket.exe.config
+C:\Users\glab\Desktop\S_socket\S_socket\bin\Debug\S_socket.exe
+C:\Users\glab\Desktop\S_socket\S_socket\bin\Debug\S_socket.pdb
+C:\Users\glab\Desktop\S_socket\S_socket\obj\Debug\S_socket.csprojResolveAssemblyReference.cache
+C:\Users\glab\Desktop\S_socket\S_socket\obj\Debug\S_socket.exe
+C:\Users\glab\Desktop\S_socket\S_socket\obj\Debug\S_socket.pdb

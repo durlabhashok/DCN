@@ -1,0 +1,5 @@
+C:\Users\glab\Desktop\S_Client\S_Client\bin\Debug\S_Client.exe.config
+C:\Users\glab\Desktop\S_Client\S_Client\bin\Debug\S_Client.exe
+C:\Users\glab\Desktop\S_Client\S_Client\bin\Debug\S_Client.pdb
+C:\Users\glab\Desktop\S_Client\S_Client\obj\Debug\S_Client.exe
+C:\Users\glab\Desktop\S_Client\S_Client\obj\Debug\S_Client.pdb

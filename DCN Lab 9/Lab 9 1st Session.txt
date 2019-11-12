@@ -1,0 +1,46 @@
+11/12/2019
+
+vty =Virtual telly Type 
+
+Telnet:
+	Password
+	Access Router from any end device.
+	Access router's CLI mode one PC's command prompt
+
+
+CODE:
+Router#config t
+Enter configuration commands, one per line.  End with CNTL/Z.
+
+Router(config)#int fa0/0
+Router(config-if)#ip address 1.0.0.1 255.255.255.0
+Router(config-if)#no shutdown
+Router(config-if)#exit
+
+Router(config)#enable password durlabh
+outer(config)#line console 0
+Router(config-line)#password durlabh1
+Router(config-line)#login
+
+Router(config-line)#line vty 0 4
+Router(config-line)#password durlabh2
+Router(config-line)#end
+
+Next (IN GUI @ PC): Add Ip and Subnet Mask
+
+NEXT (IN GUI @ PC): Open Command Prompt
+
+PC> telnet 10.0.0.1
+ User Access Verification
+
+Password:
+Password:
+Password:
+
+Router>en
+Password:
+Router#config t
+
+Router(config)#ip dhcp pool network
+Router(dhcp-config)#network 10.0.0.0 255.255.255.0 
+Router(dhcp-config)#default-router 10.0.0.1

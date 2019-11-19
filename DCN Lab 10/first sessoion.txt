@@ -1,0 +1,12 @@
+Issue ip address
+
+Go to server:
+>Services>FTp
+
+?
+dir
+exit
+ipconfig
+ping
+quit
+telnet
